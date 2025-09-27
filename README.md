@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+# 🚀 RideSmart-AI-Marketplace
 
-## Project info
+## 📌 Problem Statement  
+**Chosen Problem:** HACXPB003 – Build a two-wheeler marketplace web app  
 
-**URL**: https://lovable.dev/projects/f2e2e719-1260-4850-bf09-4204cb671608
+Two-wheeler buying and selling today is fragmented, with buyers overwhelmed by choices and lack of personalization, while dealers struggle with inventory and pricing. Existing platforms act primarily as listing portals without intelligent decision support or transparent pricing.  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 💡 Proposal & Prototype Plan  
 
-**Use Lovable**
+**RideSmart-AI-Marketplace** is a web platform where users can **discover, compare, and transact on bikes, scooters, and EVs**.  
+The prototype integrates both **mandatory marketplace features** and **AI-powered enhancements**.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f2e2e719-1260-4850-bf09-4204cb671608) and start prompting.
+**Plan of Action:**  
+- Build the **frontend** with React.js for a responsive, user-friendly interface.  
+- Implement the **backend** with Node.js/Express for listings, search, bookings, and dealer dashboards.  
+- Use **PostgreSQL** for structured data (vehicles, users) and **MongoDB** for semi-structured data (inventory, logs).  
+- Develop **AI microservices**:  
+  - Used Bike Price Estimator (regression model – XGBoost/Random Forest).  
+  - Recommendation Engine (hybrid filtering for personalized suggestions).  
+- Deploy using **AWS EC2/Heroku for backend & AI**, **Vercel/Netlify for frontend**, and **AWS RDS/MongoDB Atlas for databases**.  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ✨ Features to be Implemented  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Core Features (Required)  
+- Vehicle listings with images, prices, and specifications  
+- Search and filters (brand, price, fuel type, mileage, etc.)  
+- Product detail pages with offers  
+- Side-by-side vehicle comparison  
+- EMI and fuel cost calculators  
+- Buy/sell used bikes  
+- Showroom directory with test ride booking  
+- Upcoming vehicle launches  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### AI-Enhanced Features (Optional)  
+- AI-powered recommendation engine for personalized vehicle suggestions  
+- AI-based used bike price estimator for transparent resale pricing  
+- User accounts with favorites  
+- Reviews and ratings  
+- Price alerts  
+- Dealer dashboard for inventory management  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛠️ Tech Stack  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Frontend:** React.js (hosted on Vercel/Netlify)  
+- **Backend:** Node.js with Express (hosted on AWS EC2/Heroku)  
+- **Database:** PostgreSQL (RDS) and MongoDB (Atlas)  
+- **ML/AI Frameworks:** Scikit-learn, XGBoost, TensorFlow / PyTorch  
+- **APIs & Tools:** REST APIs, Google Maps API, Chart.js, OpenAI API  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 👥 Team Contributions  
 
-**Edit a file directly in GitHub**
+- **Narasimha** – Backend APIs, database integration, EMI & fuel cost calculators  
+- **Adarsh** – Frontend development (React.js), UI/UX design, test ride booking module  
+- **Anshitha** – AI microservices (price estimator & recommendation engine), ML model training  
+- **Ramya** – Data handling and preprocessing, deployment setup (AWS/Netlify), documentation  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f2e2e719-1260-4850-bf09-4204cb671608) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
