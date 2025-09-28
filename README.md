@@ -60,6 +60,7 @@ The prototype integrates both **mandatory marketplace features** and **AI-powere
 - **Narasimha** – Backend APIs, database integration, EMI & fuel cost calculators  
 - **Adarsh** – Frontend development (React.js), UI/UX design, test ride booking module  
 - **Anshitha** – AI microservices (price estimator & recommendation engine), ML model training  
-- **Ramya** – Data handling and preprocessing, deployment setup (AWS/Netlify), documentation  
+- **Ramya** – Data handling and preprocessing, deployment setup (AWS/Netlify), documentation
+- **Aakhil** - QA, Testing, User Validation
 
 ---
